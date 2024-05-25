@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <item name="android:colorBackground">@color/colorSecondaryDark</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:buttonStyle">@style/Widget.Button.Modern</item>
+        <item name="buttonStyle">@style/Widget.Button.Modern</item>
+    </style>
+
+    <style name="Widget.Button.Modern" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/colorButton</item>
+        <item name="android:textColor">@color/colorOnButton</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Widget.Button.Numeric" parent="Widget.Button.Modern">
+        <item name="android:backgroundTint">@color/colorButtonNumeric</item>
+    </style>
+
+    <style name="Widget.Button.Function" parent="Widget.Button.Modern">
+        <item name="android:backgroundTint">@color/colorButtonFunction</item>
+        <item name="android:textColor">@color/colorOnButton</item>
+        <item name="android:padding">16dp</item>
+
+
+    </style>
+    <style name="Widget.Button.Delete" parent="Widget.Button.Modern">
+        <item name="android:backgroundTint">#FA0303</item>
+        <item name="android:textColor">@color/colorOnButton</item>
+        <item name="android:padding">16dp</item>
+
+
+    </style>
+</resources>
