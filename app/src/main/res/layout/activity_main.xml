@@ -292,7 +292,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="#3A4FC3"
-        android:text="Created by: ABDA NIZAR"
+        android:text="Created by: ABDA NIZAR,KHMAIS AZIZ RAFRAFI "
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
